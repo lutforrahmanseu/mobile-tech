@@ -20,6 +20,7 @@
     margin-top:10px;
     padding: 15px 30px;
     border: none;
+    cursor: pointer;
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
@@ -41,6 +42,7 @@
 }
 .service-icon img{
     width:100px;
+    padding: 10px;
 }
 .service-container{
     width: 100%;
@@ -111,6 +113,7 @@
     margin-left: 135px;
     margin-bottom: 15px;
     padding: 10px 12px;
+    cursor: pointer;
     border: none;
     font-size: 15px;
     font-weight: 400;
@@ -119,3 +122,13 @@
     background-image: linear-gradient(to right top, #eec511, #cea10e, #d49c0d, #e67812, #f1bc6c);
 }
 /* our top rated products end  */
+/* footer start  */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:10px ;
+}
