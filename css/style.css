@@ -69,3 +69,53 @@
     font-weight: 500;
 }
 /* our services end  */
+/* our top rated products start */
+.product-head{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.head-color{
+    color: rgb(228, 151, 10);
+}
+.head{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left:30px;
+}
+.product-container{
+    width: 100%;
+    display: flex;
+    margin-top:0px;
+}
+.product{
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px 30px;
+    margin-top: 50px;
+    box-shadow: 10px 20px 30px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.product-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+.product-btn{
+    margin-left: 135px;
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right top, #eec511, #cea10e, #d49c0d, #e67812, #f1bc6c);
+}
+/* our top rated products end  */
