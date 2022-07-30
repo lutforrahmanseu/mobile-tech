@@ -166,32 +166,35 @@
 }
 /* our top rated products end  */
 /* contact us start  */
-.contact{
-    margin-top: 50px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(252, 240, 240);
+    text-align: center;
+    height: 220px;
+    margin-top:50px;
 
 }
-input[type=text]{
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  .contact-btn{
-  width: 100%;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  color: white;
-    background-image: linear-gradient(to right top, #eec511, #cea10e, #d49c0d, #e67812, #f1bc6c);
-  }
+.contact-us{
+    padding-top: 30px;
+}
+input{
+    padding:10px 80px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.contact-btn{
+    margin: 10px;
+    padding:10px 145px;
+    cursor: pointer;
+    border: none; 
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right top, #eec511, #cea10e, #d49c0d, #e67812, #f1bc6c);   
+}
+
+
 /* contact us end  */
 /* footer start  */
 footer{
