@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 /* header section  start */
+/* nabvar start */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+ }
+ .company-logo{
+     color: white;
+ }
+ .menu-item{
+     display: flex;   
+ }
+ .menu-item li{
+     list-style:none;
+     padding: 10px;
+     font-size: 23px;
+     font-weight: 700;
+ }
+ .menu-item a{
+     text-decoration: none;
+     color: white;
+     padding: 23px;
+ }
+ .menu-item a:hover{
+     color: bisque;
+     background: rgb(115, 117, 115);
+     
+ }
+/* navbar end  */
 .container{
     width: 100%;
     display: flex;
@@ -66,6 +97,9 @@
     justify-content:center;
     align-items: center;
     background:pink;
+}
+.service:hover{
+    border: 2px solid purple;
 }
 .delivery-title{
     font-size: 25px;
